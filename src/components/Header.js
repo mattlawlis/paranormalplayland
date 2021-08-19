@@ -10,14 +10,9 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h2>A metaphysics, holistic & artisan festival</h2>
-        <h3>Thursday, October 28, 2021, 6 PM - 12 AM<br>
-            606 North Presa Street, San Antonio, Texas 78216</h3>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+            Thursday, October 28, 2021, 6 PM - 12 AM<br />
+            606 North Presa Street, San Antonio, Texas 78216
         </p>
       </div>
     </div>
@@ -29,7 +24,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Venue
           </button>
         </li>
         <li>
@@ -38,7 +33,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Vendors
           </button>
         </li>
         <li>
@@ -47,7 +42,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            VIP Tickets
           </button>
         </li>
         <li>
