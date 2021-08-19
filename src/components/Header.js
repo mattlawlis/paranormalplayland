@@ -9,7 +9,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Paranormal PLAYLAND</h1>
+        <h2>A metaphysics, holistic & artisan festival</h2>
+        <h3>Thursday, October 28, 2021, 6 PM - 12 AM<br>
+            606 North Presa Street, San Antonio, Texas 78216</h3>
         <p>
           A fully responsive site template designed by{' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
