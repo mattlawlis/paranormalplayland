@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Venue</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -62,7 +62,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Vendors</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -91,19 +91,47 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">VIP Tickets</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+         <div style="
+            overflow: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            width: 258.96px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+            border-radius: 10px;
+            font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+          ">
+       <div style="padding: 20px;">
+         <p style="
+          font-size: 18px;
+          line-height: 20px;
+          ">VIP Ticket</p>
+       <p style="
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 600;
+      ">$100.00</p>
+     <a target="_blank" href="https://checkout.square.site/merchant/BRQFTZ1MK0FD0/checkout/GKYIEBENPS6E5IOASDYDDK5T?src=embed" style="
+        display: inline-block;
+         font-size: 18px;
+        line-height: 48px;
+        height: 48px;
+       color: #ffffff;
+       min-width: 212px;
+       background-color: #006aff;
+       text-align: center;
+       box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+       border-radius: 0px;
+     ">Buy now</a>
+  </div>
+</div>
           {close}
         </article>
 
