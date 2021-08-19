@@ -4,6 +4,7 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
+      <img src="http://paranormalplayland.com/wp-content/uploads/2021/08/paranormal-playland-logo-scaled-1.png">
       <span className="icon fa-diamond"></span>
     </div>
     <div className="content">
